@@ -11,4 +11,7 @@ public class Hot implements Serializable {
     private Control control;
     private int status;
     private Data data;
+    public Data getData(){
+        return data;
+    }
 }
